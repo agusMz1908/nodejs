@@ -13,3 +13,6 @@ Options:
   -l, --listar   Despliega la tabla en la consola                [boolean] [default: false]
   -h, --hasta    Cantidad de veces que quieres multiplicar la base   [number] [default: 10]
 ```
+
+#Tabla desplegada en consola
+<img src='./img/tablaConsola.png'>
