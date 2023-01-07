@@ -14,8 +14,15 @@ Options:
   -h, --hasta    Cantidad de veces que quieres multiplicar la base   [number] [default: 10]
 ```
 
-# Ejemplo dabla desplegada en consola:
+# Ejemplo tabla desplegada en consola:
 
 <div align="center">
     <img src='./img/tablaConsola.png'>
 </div>
+
+# Ejemplo tabla en archivo de de texto:
+
+<div align="center">
+    <img src='./img/tablaTxt.png'>
+</div>
+
