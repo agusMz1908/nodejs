@@ -15,4 +15,7 @@ Options:
 ```
 
 # Ejemplo dabla desplegada en consola:
-<img align="center" src='./img/tablaConsola.png'>
+
+<div align="center">
+    <img src='./img/tablaConsola.png'>
+</div>
