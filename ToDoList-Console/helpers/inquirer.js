@@ -73,7 +73,7 @@ const leerInput = async(message) => {
                     return 'Por favor ingrese un valor'
                 }
                 return true;
-            }
+            },
         }
     ];
 

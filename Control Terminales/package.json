@@ -1,0 +1,16 @@
+{
+  "name": "control-terminales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Muniz",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "uuid": "^9.0.0"
+  }
+}
