@@ -123,17 +123,9 @@ const leerInput = async(message) => {
             },
         },
     ];
-
-    const {numeroPos2000, serie, partNumber, modelo, conectividad, cliente} = await inquirer.prompt(pregunta);
-    return {
-        numeroPos2000,
-        serie,
-        partNumber,
-        modelo,
-        conectividad,
-        cliente
-    } 
-        
+    
+    const input = await inquirer.prompt(pregunta);
+    return input
 }
 
 export {

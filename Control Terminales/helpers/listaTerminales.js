@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const archivo = './data/equipos.json';
+const archivo = './db/listaTerminales.json';
 
 const guardarData = (data) => {
     fs.writeFileSync(archivo, JSON.stringify(data));
@@ -11,7 +11,7 @@ const leerData = () => {
         return null;
     }
 
-    const info = fs.readFileSync(archivo, {encoding: 'utf-8'});
+    const info = fs.readFileSync(archivo, {encoding: 'utf-8'}); //No regresa los bytes
     const data = JSON.parse(info);
 
     return data;
